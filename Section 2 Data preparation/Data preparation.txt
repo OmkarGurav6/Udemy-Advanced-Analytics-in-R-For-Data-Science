@@ -1,0 +1,16 @@
+
+Factor Variable Trap(FVT) :converting factor into non-factor 
+eg.  x <- factor(c("11","12","13","14",'11'))
+     y <- as.numeric(as.character(x))
+
+sub() and gsub() perform replacement of 1st and all matches respectively.
+
+If u want to address special character in its character meaning then u need to create an escape sequence.
+eg. "\\$" for $
+
+NA is 3rd logical constant.
+
+In factors NA is represented as <NA> because factor can have "NA"(acronym for anything except not available) as 
+element in some cases.
+
+
